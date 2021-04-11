@@ -26,6 +26,23 @@ body {
   text-decoration: underline;
 }
 
+.app-toggle img {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.profile img {
+  width: 40px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.profile img:hover {
+  background-color: #f0f1f3;
+}
+
 /*Top Navbar*/
 .nav-bar {
   margin-left: auto;
@@ -143,21 +160,4 @@ body {
   color: #70757a;
   background-color: #ececec;
   border-top: 1px solid #d4d4d4;
-}
-
-.app-toggle img {
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-}
-
-.profile img {
-  width: 40px;
-  background-color: #fff;
-  border-radius: 100%;
-  padding: 5px;
-}
-
-.profile img:hover {
-  background-color: #f0f1f3;
 }
