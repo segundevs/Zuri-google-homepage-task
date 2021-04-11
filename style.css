@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Utilities*/
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: #2d2d2d;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/*Top Navbar*/
+.nav-bar {
+  margin-left: auto;
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.nav-bar a {
+  margin-left: 20px;
+}
+
+/*Main Content*/
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Search Container*/
+.search-container {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  margin: 30px 0;
+  position: relative;
+  width: 100%;
+}
+
+/*Search input field*/
+.search-bar input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-radius: 100px;
+  padding: 28px 50px;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
+  font-size: 18px;
+  transition: box-shadow 0.3s;
+}
+
+.search-bar input:hover {
+  box-shadow: 0 0 10px -4px #888888;
+}
+
+/*Search input field icons*/
+.search-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  top: 5%;
+  display: flex;
+  font-size: 20px;
+  color: #888888;
+}
+
+.search-icon.left {
+  left: 5px;
+}
+
+.search-icon.right {
+  right: 5px;
+}
+
+.search-icon img {
+  width: 15px;
+  height: 25px;
+}
+
+/*Search buttons*/
+.search-buttons {
+  margin: 20px 0px 50px 0px;
+}
+
+.search-buttons a {
+  text-decoration: none;
+  margin-right: 15px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: 1px solid #f8f9fa;
+}
+
+.search-buttons a:hover {
+  box-shadow: 0px 1px 5px #5f6368;
+}
+
+/*Search links*/
+.search-links a {
+  color: #1a0dab;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.search-links a:hover {
+  text-decoration: underline;
+}
+
+/*bottom bar*/
+.bottom-bar {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: space-between;
+  padding: 20px 30px;
+  color: #70757a;
+  background-color: #ececec;
+  border-top: 1px solid #d4d4d4;
+}
+
+.app-toggle img {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.profile img {
+  width: 40px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.profile img:hover {
+  background-color: #f0f1f3;
+}
